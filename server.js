@@ -32,8 +32,6 @@ const movies = [
 ];
 
 app.get('/movies', (req, res) => {
-	console.log(req.body);
-	console.log(movies);
 	res.send(movies);
 });
 
